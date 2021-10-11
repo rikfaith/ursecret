@@ -61,15 +61,15 @@ another symmetric key that is stored in plain text on the data store host
 
 ## Usage
 
-  usage: ursecret.py [-h] [--remote REMOTE] [--local LOCAL] [--install] [--get KEY] [--put KEY VALUE] [--debug]
+    usage: ursecret.py [-h] [--remote REMOTE] [--local LOCAL] [--install] [--get KEY] [--put KEY VALUE] [--debug]
 
-  Generate, store, and retrieve secrets via ssh
+    Generate, store, and retrieve secrets via ssh
 
-  optional arguments:
-    -h, --help       show this help message and exit
-    --remote REMOTE  name of remote host
-    --local LOCAL    name of local host (for query purposes)
-    --install        install new ssh key
-    --get KEY        get named secret
-    --put KEY VALUE  put named secret
-    --debug          verbose debugging output
+    optional arguments:
+      -h, --help       show this help message and exit
+      --remote REMOTE  name of remote host
+      --local LOCAL    name of local host (for query purposes)
+      --install        install new ssh key
+      --get KEY        get named secret
+      --put KEY VALUE  put named secret
+      --debug          verbose debugging output
